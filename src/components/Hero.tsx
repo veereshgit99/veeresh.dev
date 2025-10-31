@@ -68,7 +68,7 @@ const Hero = () => {
                 transition={{ duration: 0.4, delay: 0.3 }}
                 className="absolute bottom-28 left-0 right-0 flex items-center gap-4">
                 <p className="text-secondary text-lg whitespace-nowrap">
-                    Previously Software Engineer <Link href="https://www.sap.com/index.html" target="_blank" rel="noreferrer" className="font-medium underline underline-offset-4">@SAP Labs</Link>, I built large-scale backend and ML-driven systems.
+                    Previously software engineer <Link href="https://www.sap.com/index.html" target="_blank" rel="noreferrer" className="font-medium underline underline-offset-4">@SAP Labs</Link>, I built large-scale backend and ML-driven systems.
                 </p>
                 <div className="hidden sm:block flex-1 h-[1px] bg-border"></div>
             </motion.div>

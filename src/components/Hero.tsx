@@ -26,7 +26,7 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4, delay: 0.1 }}
                     className={"max-w-sm leading-relaxed [&:not(:first-child)]:mt-6 text-secondary text-pretty pb-16 text-lg"}>
-                    Full-stack software engineer with 3+ years of experience building scalable, reliable, and user-centric products. Graduated from the master's in computer science program {" "}
+                    Full-stack software engineer with 3+ years of experience building scalable, reliable, and user-centric products. Graduated from the master&apos;s in computer science program {" "}
                     <Link href="https://www.asu.edu" target="_blank" rel="noreferrer" className="font-medium underline underline-offset-4">@ASU</Link>.
                 </motion.p>
 

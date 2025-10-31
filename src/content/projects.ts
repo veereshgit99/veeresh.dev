@@ -4,14 +4,14 @@ export const projects: Project[] = [
     {
         title: "Elevv",
         description: "AI-powered resume analysis & tailored feedback + download ATS friendly resumes",
-        date: "2025-10-05",
+        date: "2025-09-02",
         github: "https://github.com/veereshgit99/Elevv",
         demo: "https://elevv.net"
     },
     {
         title: "Custom MCP Servers",
         description: "Persistent memory for Claude LLM",
-        date: "2025-10-10",
+        date: "2025-10-16",
         github: "https://github.com/veereshgit99/Custom-MCP-Servers"
     },
     {

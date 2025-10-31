@@ -29,7 +29,7 @@ const Hero = () => {
                     transition={{ duration: 0.4, delay: 0.1 }}
                     // @ts-ignore
                     className={"max-w-sm leading-relaxed [&:not(:first-child)]:mt-6 text-secondary text-pretty pb-16 text-lg"}>
-                    Full-stack software engineer with 3+ years of experience developing user-focused products, writing high-quality code, and delivering scalable, reliable systems.
+                    Full-stack software engineer with 3+ years of experience developing user-centric products, writing high-quality code, and delivering scalable, reliable systems.
                 </motion.p>
                 {/* MOBILE */}
                 <div className="sm:hidden flex text-secondary absolute right-0 -top-5">

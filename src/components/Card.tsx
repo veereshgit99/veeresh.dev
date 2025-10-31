@@ -1,37 +1,21 @@
 "use client";
-import {
-    motion,
-    useMotionTemplate,
-    useSpring,
-} from "framer-motion";
-
+import { motion } from "framer-motion";
 import { PropsWithChildren } from "react";
 
 export const Card: React.FC<PropsWithChildren> = ({ children }) => {
-    const mouseX = useSpring(0, { stiffness: 500, damping: 100 });
-    const mouseY = useSpring(0, { stiffness: 500, damping: 100 });
-
-    function onMouseMove({ currentTarget, clientX, clientY }: any) {
-        const { left, top } = currentTarget.getBoundingClientRect();
-        mouseX.set(clientX - left);
-        mouseY.set(clientY - top);
-    }
-    let maskImage = useMotionTemplate`radial-gradient(240px at ${mouseX}px ${mouseY}px, white, transparent)`;
-    let style = { maskImage, WebkitMaskImage: maskImage };
-
     return (
         <motion.div
-            initial="hidden"
-            whileInView="visible"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            variants={{
-                hidden: { opacity: 0 },
-                visible: { opacity: 1 },
-            }}
-            transition={{ delay: 0.1 }}
-            className="overflow-hidden relative duration-300 border rounded-xl hover:border-secondary group md:gap-8 border-dark"
+            transition={{ duration: 0.5 }}
+            whileHover={{ y: -5, transition: { duration: 0.2 } }}
+            className="relative h-full bg-white/60 dark:bg-gray-900/60 backdrop-blur-sm rounded-2xl border-2 border-dark/20 hover:border-alternative/40 transition-all duration-300 shadow-lg hover:shadow-xl group overflow-hidden"
         >
-            {children}
+            <div className="absolute inset-0 bg-gradient-to-br from-alternative/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <div className="relative z-10">
+                {children}
+            </div>
         </motion.div>
     );
 };

@@ -4,7 +4,7 @@ export const projects: Project[] = [
     {
         title: "Elevv",
         description: "AI-powered resume analysis & tailored feedback + download ATS friendly resumes",
-        date: "2025-09-06",
+        date: "2025-09-02",
         github: "https://github.com/veereshgit99/Elevv",
         demo: "https://elevv.net"
     },

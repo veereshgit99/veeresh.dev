@@ -12,7 +12,7 @@ const syneFont = Syne({
 
 export const metadata: Metadata = {
     title: 'Veeresh Koliwad',
-    description: 'Full-stack software engineer with 3+ years of experience building scalable, reliable, and user-centric products across distributed architecture and AI-driven platforms.',
+    description: 'Full-stack software engineer with 3+ years of experience building scalable, reliable, and user-centric products. Graduated from the master’s in computer science program @ASU.',
     icons: {
         icon: [
             { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
@@ -29,13 +29,13 @@ export const metadata: Metadata = {
     openGraph: {
         images: "/og.jpg",
         type: "website",
-        description: "Full-stack software engineer with 3+ years of experience building scalable, reliable, and user-centric products across distributed architecture and AI-driven platforms.",
+        description: "Full-stack software engineer with 3+ years of experience building scalable, reliable, and user-centric products. Graduated from the master’s in computer science program @ASU.",
         title: "Veeresh Koliwad"
     },
     twitter: {
         card: 'summary_large_image',
         title: 'Veeresh Koliwad',
-        description: 'Full-stack software engineer with 3+ years of experience building scalable, reliable, and user-centric products across distributed architecture and AI-driven platforms.',
+        description: 'Full-stack software engineer with 3+ years of experience building scalable, reliable, and user-centric products. Graduated from the master’s in computer science program @ASU.',
         creator: '@veeresh_koliwad',
         images: "/og.jpg",
     },

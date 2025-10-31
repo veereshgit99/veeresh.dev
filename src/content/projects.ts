@@ -32,11 +32,5 @@ export const projects: Project[] = [
         description: "Fast columnar data engine",
         date: "2024-04-04",
         github: "https://github.com/veereshgit99/Column-Oriented-Database"
-    },
-    {
-        title: "Disease Prediction System",
-        description: "ML-based health predictor",
-        date: "2023-05-15",
-        github: "https://github.com/veereshgit99/Disease_Prediction"
     }
 ]

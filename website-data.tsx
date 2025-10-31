@@ -1,4 +1,4 @@
-import { LinkedinIcon, GithubIcon, Mail } from "lucide-react"
+import { LinkedinIcon, GithubIcon, Mail, Twitter } from "lucide-react"
 
 const websiteData = {
     "socials": [
@@ -6,6 +6,11 @@ const websiteData = {
             "href": "mailto:veereshkoliwad99@gmail.com",
             "text": "Email",
             "icon": Mail
+        },
+        {
+            "href": "https://x.com/veeresh_koliwad",
+            "text": "Twitter",
+            "icon": Twitter
         },
         {
             "href": "https://www.linkedin.com/in/veereshkoliwad",

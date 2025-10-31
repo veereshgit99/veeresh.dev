@@ -32,15 +32,15 @@ const Hero = () => {
                     Full-stack software engineer with 3+ years of experience building scalable, reliable, and user-centric products across distributed architecture and AI-driven platforms.
                 </motion.p>
                 {/* MOBILE */}
-                <div className="sm:hidden flex text-secondary absolute right-0 -top-5">
+                <div className="sm:hidden flex gap-4 absolute right-0 -top-5">
                     {websiteData.socials.map((social) => (
                         <Link
                             key={social.href}
                             href={social.href}
-                            className="[&:not(:last-child)]:border-r py-3 p-3 border-dark"
+                            className="text-secondary hover:text-primary hover:-translate-y-1 transition-all duration-200"
                             target="_blank"
                         >
-                            <social.icon />
+                            <social.icon className="w-5 h-5" />
                             <span className="sr-only">{social.text}</span>
                         </Link>
                     ))
@@ -48,15 +48,15 @@ const Hero = () => {
                 </div>
             </div>
             {/* OVER SM */}
-            <div className="hidden sm:flex absolute right-0 flex-col rounded border-2 border-dark text-secondary opacity-60">
+            <div className="hidden sm:flex absolute right-0 flex-col gap-4">
                 {websiteData.socials.map((social) => (
                     <Link
                         key={social.href}
                         href={social.href}
-                        className="[&:not(:last-child)]:border-b-2 py-3 p-3 border-dark"
+                        className="text-secondary hover:text-primary hover:-translate-y-1 transition-all duration-200"
                         target="_blank"
                     >
-                        <social.icon />
+                        <social.icon className="w-6 h-6" />
                         <span className="sr-only">{social.text}</span>
                     </Link>
                 ))

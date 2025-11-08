@@ -2,6 +2,10 @@ import type { Project } from "@/components/Projects"
 
 export const projects: Project[] = [
     {
+        title: "AI Research Explorer",
+        description: "Graph-based platform to discover and connect AI/ML papers, models, and datasets with smart search.",
+    },
+    {
         title: "Elevv",
         description: "AI-powered resume analysis & tailored feedback + download ATS friendly resumes",
         date: "2025-09-02",

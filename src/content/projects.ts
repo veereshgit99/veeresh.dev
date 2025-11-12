@@ -17,7 +17,7 @@ export const projects: Project[] = [
     {
         title: "Custom MCP Servers",
         description: "Persistent memory for Claude LLM",
-        date: "2025-10-16",
+        date: "2025-06-16",
         github: "https://github.com/veereshgit99/Custom-MCP-Servers"
     },
     {

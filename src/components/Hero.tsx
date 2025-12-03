@@ -17,7 +17,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
-                    className={`${youngSerif.className} scroll-m-20 text-6xl tracking-tight lg:text-8xl`}>
+                    className={`${youngSerif.className} scroll-m-20 text-5xl sm:text-6xl tracking-tight lg:text-8xl`}>
                     Veeresh<br />
                     Koliwad
                 </motion.h1>
@@ -25,7 +25,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4, delay: 0.1 }}
-                    className={"max-w-sm leading-relaxed [&:not(:first-child)]:mt-6 text-secondary text-pretty pb-16 text-lg"}>
+                    className={"max-w-sm leading-relaxed [&:not(:first-child)]:mt-6 text-secondary text-pretty pb-16 text-base sm:text-lg"}>
                     Full-stack software engineer with 3+ years of experience building scalable, reliable, and user-centric products. Graduating from the master&apos;s in computer science program {" "}
                     <Link href="https://www.asu.edu" target="_blank" rel="noreferrer" className="font-medium underline underline-offset-4">@ASU</Link>.
                 </motion.p>
@@ -66,8 +66,8 @@ const Hero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.4, delay: 0.3 }}
-                className="absolute bottom-28 left-0 right-0 flex items-center gap-4">
-                <p className="text-secondary text-lg whitespace-nowrap">
+                className="flex flex-col sm:flex-row sm:items-center gap-4 mt-auto sm:mt-0">
+                <p className="text-secondary text-sm sm:text-lg">
                     Previously software engineer <Link href="https://www.sap.com/index.html" target="_blank" rel="noreferrer" className="font-medium underline underline-offset-4">@SAP Labs</Link>, I built large-scale backend and ML-driven systems.
                 </p>
                 <div className="hidden sm:block flex-1 h-[1px] bg-border"></div>

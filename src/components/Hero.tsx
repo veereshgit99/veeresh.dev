@@ -68,7 +68,7 @@ const Hero = () => {
                 transition={{ duration: 0.4, delay: 0.3 }}
                 className="flex flex-col sm:flex-row sm:items-center gap-4 mt-auto sm:mt-0">
                 <p className="text-secondary text-sm sm:text-lg">
-                    Previously software engineer <Link href="https://www.sap.com/index.html" target="_blank" rel="noreferrer" className="font-medium underline underline-offset-4">@SAP Labs</Link>, I built large-scale backend and ML-driven systems.
+                    Previously <Link href="https://www.sap.com/index.html" target="_blank" rel="noreferrer" className="font-medium underline underline-offset-4">@SAP</Link>, I built large-scale backend and ML-driven systems.
                 </p>
                 <div className="hidden sm:block flex-1 h-[1px] bg-border"></div>
             </motion.div>
